@@ -1,0 +1,60 @@
+.parent {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    padding: 15px;
+    background-image: linear-gradient(45deg, blue, red);
+    height: 200vh;
+    width: 100%;
+}
+.small-child {
+    height: 100vh;
+    width: 100%;
+}
+.small-child .p{
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.small-child .p h2 {
+    margin: 0;
+}
+.small-child .p p{
+    margin: 0;
+}
+.big-child {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;;
+}
+.big-child .p{
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.big-child .p h2{
+    margin: 0;
+}
+.big-child .p p{
+    margin: 0;
+}
+
+/* hover */
+.small-child .p:hover{
+    background-image: linear-gradient(45deg , white , rgb(78, 242, 78));
+}
+
+h1, h2 , h3 , h4 , h5 , h6 {
+    margin: 0
+}
+.small-child .select {
+    border: 4px, solid, #00d0ff;
+}
+
+
+
+
